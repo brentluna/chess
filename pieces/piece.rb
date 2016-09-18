@@ -1,5 +1,5 @@
 require_relative '../board'
-require 'colorized_string'
+# require 'colorized_string'
 class Piece
   attr_accessor :pos
   def initialize(pos, color, board, unicode)
